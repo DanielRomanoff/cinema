@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.FinalScene">
+	<children>
+		<AnchorPane prefHeight="37.0" prefWidth="702.0">
+			<children>
+				<MenuBar prefHeight="35.0" prefWidth="702.0" style="-fx-min-width: 100%; -fx-background-color: #353238;" />
+				<Text fill="WHITE" layoutX="18.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 15;" text="Booking History" />
+			</children>
+		</AnchorPane>
+		<TableView fx:id="table" layoutY="35.0" prefHeight="366.0" prefWidth="702.0">
+			<columns>
+				<TableColumn fx:id="Type" prefWidth="98.4000244140625" text="Type" />
+				<TableColumn fx:id="Title" prefWidth="255.1999969482422" text="Title" />
+				<TableColumn fx:id="Duration" prefWidth="116.0" text="Duration" />
+				<TableColumn fx:id="Time" prefWidth="105.5999755859375" text="Time" />
+				<TableColumn fx:id="Price" prefWidth="125.5999755859375" text="Price" />
+			</columns>
+		</TableView>
+	</children>
+</AnchorPane>

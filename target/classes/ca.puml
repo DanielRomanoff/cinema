@@ -1,0 +1,15 @@
+@startuml
+ class User {
+    private int id;
+    private String name;
+    private Cinema cinema;
+    public Cinema getCinema() {
+    public void setId(int id) {
+    public User(String name) {
+    public User(){}
+    public void addCinema(Cinema cinema) {
+    public int getId() {
+    public String getName() {
+    public void setName(String name) {
+}
+@enduml

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<ScrollPane hbarPolicy="NEVER" prefHeight="402.0" prefWidth="716.0" style="-fx-background-color: black;" vbarPolicy="ALWAYS" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.FilmSceneController">
+   <content>
+      <SplitPane prefHeight="400.0" prefWidth="700.0">
+         <items>
+            <AnchorPane prefHeight="559.0" prefWidth="594.0" style="-fx-background-color: black;">
+                <children>
+                    <Text fill="WHITE" layoutX="14.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 15;" text="All Films" wrappingWidth="256.8037519454956" />
+                    <Button fx:id="backButton" contentDisplay="TOP" graphicTextGap="0.0" layoutX="642.0" layoutY="-3.0" minHeight="21.0" mnemonicParsing="false" onAction="#backToPrevScene" prefHeight="34.0" prefWidth="48.0" style="-fx-background-color: none; -fx-label-padding: -10; -fx-font-size: 12;" text="Back" textAlignment="CENTER" textFill="#ebdfdf">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                        <cursor>
+                            <Cursor fx:constant="HAND" />
+                        </cursor>
+                    </Button>
+                    <ImageView fx:id="godFather" fitHeight="264.0" fitWidth="182.0" layoutX="-7.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@../res/images/backgroundImages/GodFather.jpg" />
+                        </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                    </ImageView>
+                  <ImageView fx:id="starWars" fitHeight="272.0" fitWidth="175.0" layoutX="175.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../res/images/backgroundImages/starWars.jpg" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fx:id="darkKnight" fitHeight="272.0" fitWidth="175.0" layoutX="350.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../res/images/backgroundImages/darkKnight.jpg" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fx:id="shawshankRedemption" fitHeight="263.0" fitWidth="183.0" layoutX="525.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../res/images/backgroundImages/The%20Shawshank%20Redemption.jpg" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fx:id="lordRings" fitHeight="272.0" fitWidth="175.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../res/images/backgroundImages/lordRings.jpg" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fx:id="backToFuture" fitHeight="272.0" fitWidth="175.0" layoutX="175.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../res/images/backgroundImages/backToFuture.jpg" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fx:id="fightClub" fitHeight="272.0" fitWidth="175.0" layoutX="350.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../res/images/backgroundImages/FightClub.jpg" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fx:id="inception" fitHeight="272.0" fitWidth="175.0" layoutX="525.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../res/images/backgroundImages/Inception.jpg" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+   </content>
+</ScrollPane>
